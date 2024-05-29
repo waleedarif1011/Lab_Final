@@ -1,0 +1,34 @@
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #3891a1;
+    color: white;
+    padding: 1rem 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer {
+    background-color: #38a169;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

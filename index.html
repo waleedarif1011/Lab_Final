@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-green-500 text-white p-4">
+        <nav class="container mx-auto flex justify-between">
+            <a href="index.html" class="text-xl font-bold">Library Management System</a>
+            <ul class="flex space-x-4">
+                <li><a href="registration.html" class="hover:text-gray-300">Registration</a></li>
+                <li><a href="record.html" class="hover:text-gray-300">Records</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body Grid -->
+    <div class="container mx-auto mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="p-6 bg-white rounded-lg shadow">
+                <h2 class="text-2xl font-bold mb-4">Register a Book</h2>
+                <p>Register your book with the title, author, genre, and publication date.</p>
+                <a href="registration.html" class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700">Go to Registration</a>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow">
+                <h2 class="text-2xl font-bold mb-4">View Book Records</h2>
+                <p>View all the books registered in the system with options to edit or delete records.</p>
+                <a href="record.html" class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700">Go to Records</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container mx-auto mt-8 p-6 bg-white rounded-lg shadow">
+        <h2 class="text-2xl font-bold mb-4">About</h2>
+        <p>Assalam O Alaikum! I'm Waleed Arif, a Machine Learning passionate about creating intuitive and fantastic solutions of daily life. This project is a simple library management system built with HTML, CSS, and PHP to demonstrate CRUD operations with a MySQL database.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-green-500 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Library Management System. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
